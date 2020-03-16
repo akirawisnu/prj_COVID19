@@ -1,11 +1,11 @@
 import os
 import re
+import csv
 import string
 import math
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from nltk.corpus import stopwords
 from sklearn.cluster import AgglomerativeClustering
 
 
@@ -89,7 +89,13 @@ if __name__ == '__main__':
 
     # vector rep. for 'summary' column:
     exclude = set(string.punctuation)
-    stop = stopwords.words('english')
+    stop_path = 'stopwords.txt'
+    stop_list = open(stop_path, 'r')
+    reader = csv.reader(stop_list)
+    stop = []
+    for row in reader:
+        if len(row) > 0:
+            stop.append(row[0])
 
     df['summary_upd'] = df['summary'].astype(str) \
         .apply(lambda x: ' '.join([word for word in x.split() if word not in (stop)]))
