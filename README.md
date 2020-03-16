@@ -1,6 +1,8 @@
 # COVID19 Text Analysis
 
 COVID-19 infections summaries tf-idf text analysis, clustering and labeling countries by keywords.
+The dataset contains a textual summary for each infection case reported in over 30 countries.
+Total number of infections reported is 1085.
 
 ## About the project
 
@@ -25,7 +27,7 @@ Results of top 10 infected countries are written to country_stats.txt, sorted by
 
 ### Labeling countries by summaries keywords
 
-Each summary is represented by a [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) vector, and labeled by it's top 5 tokens with highest tf-idf value. Then, for each country we create a list of it's summaries labels, and again by using tf-idf technique each country is labeled by it's top 15 token, w.r.t their tf-idf values.
+Each summary is represented by a [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) vector, and labeled by its top 5 tokens with highest tf-idf value. Then, for each country we create a list of its summaries labels, and again by using tf-idf technique each country is labeled by its top 15 token, w.r.t their tf-idf values.
 Results are written to country_lables.txt (partial list):
 
 ```
@@ -46,11 +48,24 @@ It is likely to assume that lots of other labels, and even the labels mentioned 
 
 ### Summaries clustering
 
-TODO.
+Agglomerative clustering of summaries tf-idf representations into 10 clusters, using [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity).
+Results are written to summaries_clusters.txt
 
 ### Labeling clusters by summaries keywords
 
-TODO.
+Same approach of countries labeling (tf-idf representation, top token for each summary, list of token per cluster and again tf-idf technique and choosing top 5 token as cluster's labels).
+Results are written to cluster_lables.txt (partial list):
+
+```
+Cluster no. 1:
+['provincial', 'border', 'cramps', 'colleagues', 'aquaintance']
+Cluster no. 2:
+['despite', 'site', 'previous', 'ski', 'sportswriter']
+Cluster no. 3:
+['officers', 'princess', 'aches', 'three', 'minor']
+```
+
+I am still working on it, trying to deduce some insights and conclusions. Feel free to join me by suggesting a different approach, contribute to the project or just chat :)
 
 ## Getting Started (for Windows or Linux)
 
