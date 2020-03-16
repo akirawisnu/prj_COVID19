@@ -1,0 +1,20 @@
+Cluster no. 1:
+['provincial', 'border', 'cramps', 'colleagues', 'aquaintance']
+Cluster no. 2:
+['despite', 'site', 'previous', 'ski', 'sportswriter']
+Cluster no. 3:
+['officers', 'princess', 'aches', 'three', 'minor']
+Cluster no. 4:
+['tracing', 'individual', 'ongoing', 'hours', 'testing']
+Cluster no. 5:
+['risky', 'pharmacy', 'diseases', 'area', 'traveller']
+Cluster no. 6:
+['times', 'suffering', 'informed', 'muscles', 'healthy']
+Cluster no. 7:
+['disembarking', 'city', 'second', 'fourth', 'nasal']
+Cluster no. 8:
+['nan', 'sister', 'disembarking', 'despite', 'site']
+Cluster no. 9:
+['studied', 'hosipital', 'durnig', 'exposure', 'next']
+Cluster no. 10:
+['death', 'motherinlaw', 'exposed', 'hospitalized', 'new']

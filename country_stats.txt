@@ -1,0 +1,11 @@
+       country  infected_count  average_age  female_percent
+0        China             197    49.017187       37.055838
+1        Japan             190    55.336499       33.684211
+2  South Korea             114    47.996852       42.982456
+3    Hong Kong              94    56.005146       50.000000
+4    Singapore              93    43.709151       39.784946
+5      Germany              54    47.080511       12.962963
+6     Thailand              41    48.905484       26.829268
+7       France              39    48.157884       17.948718
+8        Spain              34    45.979058       20.588235
+9       Taiwan              34    51.719149       52.941176

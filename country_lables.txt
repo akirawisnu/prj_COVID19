@@ -1,0 +1,20 @@
+China:
+['studied', 'visit', 'hosipital', 'tracing', 'individual', 'durnig', 'ongoing', 'exposure', 'next', 'healthcare', 'pneumonia', 'treat', 'testing', 'worker', 'death']
+Japan:
+['disembarking', 'city', 'second', 'fourth', 'princess', 'nasal', 'worsened', 'emergency', 'instutition', 'get', 'fatigue', 'minor', 'diaster', 'foreign', 'sample']
+South Korea:
+['stay', 'cramps', 'selfquarantine', 'aquaintance', 'suffering', 'rd', 'informed', 'chinese', 'symptomfree', 'international', 'entered', 'muscles', 'hospitals', 'selfisolating', 'acquaintance']
+Hong Kong:
+['border', 'four', 'trips', 'helper', 'rail', 'incubation', 'building', 'pot', 'grandmother', 'hours', 'fractures', 'forth', 'made', 'neither', 'hot']
+Singapore:
+['despite', 'site', 'church', 'boarding', 'roomin', 'nonmedical', 'companion', 'frequently', 'fo', 'conformed', 'citizen', 'group', 'malaysia', 'location', 'send']
+Germany:
+['ski', 'holiday', 'employee', 'arrived', 'sick', 'directly', 'childrens', 'child', 'participant', 'department', 'company', 'carnival', 'vacation', 'partner', 'transmission']
+Thailand:
+['risky', 'monitoring', 'aged', 'previously', 'pharmacy', 'tourist', 'diseases', 'province', 'someone', 'area', 'traveller', 'late', 'exposed', 'driver', 'showing']
+France:
+['elderly', 'solitary', 'journey', 'woman', 'date', 'returning', 'confinement', 'origin', 'person', 'plane', 'friend', 'cruise', 'positive', 'spent', 'died']
+Spain:
+['previous', 'sportswriter', 'holidaying', 'sports', 'journalist', 'studying', 'time', 'recovering', 'northern', 'game', 'coronavirus', 'watched', 'islands', 'car', 'flulike']
+Taiwan:
+['officers', 'caregivers', 'granddaughter', 'symptomatic', 'see', 'transited', 'itchy', 'lived', 'work', 'cared', 'negativepressure', 'influenza', 'reflux', 'physical', 'younger']
