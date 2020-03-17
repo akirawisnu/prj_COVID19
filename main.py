@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
         ctry_lbl_dct[country] = bag
 
-    # ftidf on ctry_lbl_dct:
+    # tfidf on ctry_lbl_dct:
     uniqueWords = []
 
     for k, v in ctry_lbl_dct.items():
@@ -249,7 +249,7 @@ if __name__ == '__main__':
 
         cluster_lbl_dict[cluster_num] = bag
 
-    # ftidf on cluster_lbl_dct:
+    # tfidf on cluster_lbl_dct:
     uniqueWords = []
 
     for k, v in cluster_lbl_dict.items():
